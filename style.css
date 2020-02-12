@@ -1,0 +1,27 @@
+.header {
+    display: flex;
+    /*флекс элементы в строчку*/
+    align-items: center;
+    /* выровнятся по одной центральной линии*/
+    justify-content: center;
+    /* лого к левому сети к правому*/
+    background-color: #2d303a;
+    height: 90px;
+    max-width: 1020px;
+    margin: auto;
+}
+
+.menu-list {
+    margin-left: auto;
+    margin-right: 40px;
+}
+
+.menu-link {
+    font-size: 12px;
+    line-height: 16px;
+    color: #FFFFFF;
+    text-decoration: none;
+    /*убрать подчеркивание ссылки*/
+    margin-right: 24px;
+    /*расстояние между пунктами меню*/
+}
