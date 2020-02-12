@@ -24,4 +24,7 @@
     /*убрать подчеркивание ссылки*/
     margin-right: 24px;
     /*расстояние между пунктами меню*/
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
 }
