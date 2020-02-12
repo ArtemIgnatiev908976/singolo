@@ -28,3 +28,11 @@
     font-weight: 700;
     text-transform: uppercase;
 }
+
+.logo {
+    margin-left: 40px;
+    font-size: 12px;
+    line-height: 16px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
