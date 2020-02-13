@@ -19,21 +19,21 @@ body {
     background-color: #2d303a;
     height: 90px;
     margin: auto;
+    border-bottom: 6px solid #323746;
 }
 
 .menu-list {
+    margin-top: 8px;
     margin-left: auto;
-    margin-right: 40px;
+    margin-right: 18px;
 }
 
 .menu-link {
-    font-size: 10px;
-    line-height: 16px;
+    font-size: 12px;
+    /* line-height: 19px; */
     color: #FFFFFF;
     text-decoration: none;
-    /*убрать подчеркивание ссылки*/
     margin-right: 24px;
-    /*расстояние между пунктами меню*/
     font-family: 'Lato', sans-serif;
     font-weight: 700;
     text-transform: uppercase;
@@ -56,4 +56,44 @@ a {
 sup {
     font-size: 20px;
     color: #f06c64;
+}
+
+.main {
+    /* display: flex;*/
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+    align-items: center;
+    min-height: 600px;
+    background-size: cover;
+    background-color: #f06c64;
+}
+
+li {
+    margin-left: 30px;
+    color: #494e62;
+    font-weight: bold;
+    font-size: 12px;
+    list-style: none;
+}
+
+li::before {
+    align-items: center;
+    content: '';
+    display: inline-block;
+    width: 0.5em;
+    height: 0.5em;
+    background-color: currentColor;
+    border-radius: 50%;
+    margin-right: 1.1em;
+    margin-bottom: 0.05em;
+}
+
+ul {
+    display: flex;
+}
+
+.content {
+    display: flex;
+    width: 1020px;
 }
