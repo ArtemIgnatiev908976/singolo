@@ -45,12 +45,13 @@ header {
 }
 
 .logo span {
+    margin-left: -6px;
     color: #f06c64;
 }
 
 nav {
     margin-top: 9px;
-    letter-spacing: -0.012em;
+    letter-spacing: -0.015em;
     white-space: nowrap;
 }
 
@@ -211,10 +212,14 @@ h1 {
 }
 
 .services p {
+    font-size: 18px;
+    line-height: 1.7;
+    word-spacing: 3.6px;
+    word-spacing: -2px;
     text-align: justify;
     margin-block-start: 18px;
     margin-block-end: 0;
-    font: 18px 30px "Lato Light", "Arial", sans-serif;
+    font-family: "Lato Light", "Arial", sans-serif;
 }
 
 .services p {
