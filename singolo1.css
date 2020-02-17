@@ -172,6 +172,7 @@ section.slider {
 }
 
 .detail .text p {
+font-weight: 600;
     margin-block-start: 12px;
     margin-block-end: 0;
     max-height: 65px;
