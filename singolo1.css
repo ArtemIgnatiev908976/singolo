@@ -139,7 +139,7 @@ section.slider {
 
 .slider>.images>img:nth-child(2) {
     margin-bottom: 1px;
-    margin-left: 70px;
+    margin-left: 69px;
 }
 
 
@@ -172,7 +172,7 @@ section.slider {
 }
 
 .detail .text p {
-font-weight: 600;
+    font-weight: 600;
     margin-block-start: 12px;
     margin-block-end: 0;
     max-height: 65px;
@@ -213,7 +213,7 @@ h1 {
 }
 
 .services p {
-letter-spacing: 0.28px;
+    letter-spacing: 0.28px;
     font-size: 18px;
     line-height: 1.7;
     word-spacing: 3.6px;
