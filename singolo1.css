@@ -212,6 +212,7 @@ h1 {
 }
 
 .services p {
+letter-spacing: 0.08px;
     font-size: 18px;
     line-height: 1.7;
     word-spacing: 3.6px;
