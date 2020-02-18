@@ -172,6 +172,7 @@ section.slider {
 }
 
 .detail .text p {
+    letter-spacing: 0.3px;
     font-weight: 600;
     margin-block-start: 12px;
     margin-block-end: 0;
