@@ -1,3 +1,9 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: none;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -9,54 +15,70 @@ body {
 /*singolo2*/
 
 .marketing-container {
-    width: 100%;
     background-color: #2d303a;
 }
 
-.marketing-title {}
-
 .wrapper {
-    max-width: 1020px;
+    width: 1020px;
     margin: 0 auto;
-    box-sizing: border-box;
-    padding-top: 65px;
-    padding-bottom: 56px;
 }
 
-.layout-4-column {
-    display: flex;
-    justify-content: center;
-    align-content: flex-start;
-    flex-wrap: wrap;
-    align-items: flex-start;
+.wrapper-portfolio {
+    padding-left: 42px;
+    padding-right: 27px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
-.img-marketing {
-    width: 220px;
-    height: 190px;
+.header-portfolio {
+    font-size: 30px;
+    font-weight: 900;
+    letter-spacing: 0.01em;
+    color: #666d89;
 }
 
-.container-img {
-    margin-top: 1px;
-    margin-bottom: 1px;
-    margin-left: 1px;
-    margin-right: 1px;
-}
-
-.wrapper p {
+.desc-portfolio {
+    margin-top: 21px;
+    font-size: 18px;
+    letter-spacing: -0.012em;
+    font-weight: 300;
     color: #767e9e;
+    text-align: justify;
+    width: 690px;
 }
 
-.wrapper h1 {
-    font-family: "Lato Black", "Arial", sans-serif;
-    letter-spacing: -0.006em;
-    color: #666d89;
+.portfolio-buttons {
+    margin-top: 13px;
+    width: 290px;
 }
 
-.wrapper h2 {
-    font-family: "Lato Black", "Arial", sans-serif;
-    letter-spacing: -0.006em;
-    color: #666d89;
+.btn-list {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn {
+    background-color: #0f0f0f;
+    border: 1.5px solid #666d89;
+    border-radius: 5px;
+    font-size: 12px;
+    font-weight: 300;
+    color: #767e9e;
+    height: 22px;
+    display: inline-block;
+    text-align: center;
+    padding: 0 6px;
+}
+
+.portfolio-container {
+    grid-template-columns: repeat(4, 240px);
+    grid-template-rows: repeat(3, 207px);
+    display: grid;
+    max-height: 601px;
+    overflow: hidden;
+    margin-top: 19px;
+    margin-bottom: 47px;
 }
 
 
