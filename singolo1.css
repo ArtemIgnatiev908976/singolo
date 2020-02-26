@@ -114,11 +114,11 @@ section.slider {
 }
 
 .slider>a.arrow-1:hover {
-    opacity: 0.7;
+    opacity: 0.8;
 }
 
 .slider>a.arrow-2:hover {
-    opacity: 0.7;
+    opacity: 0.8;
 }
 
 .slider>a.arrow-1 {
@@ -172,6 +172,7 @@ section.slider {
 }
 
 .detail .text p {
+    letter-spacing: 0.3px;
     font-weight: 600;
     margin-block-start: 12px;
     margin-block-end: 0;
@@ -181,6 +182,8 @@ section.slider {
     line-height: 1.84em;
     text-align: justify;
     hyphens: auto;
+    word-spacing: 0.001px;
+    letter-spacing: 0.001px;
 }
 
 .detail:last-child div.text p {
