@@ -119,6 +119,36 @@ body {
     grid-template-rows: 300px 111px 35px;
 }
 
+.about-items-text {
+    padding-top: 18px;
+}
+
+.about-items-text-name {
+    color: #666d89;
+    text-align: justify;
+    width: 130px;
+    display: inline-block;
+    letter-spacing: -0.049px;
+    font-size: 18px;
+    line-height: 20px;
+    font-weight: 900;
+}
+
+.about-items-text-description {
+    font-size: 12px;
+    line-height: 21px;
+    letter-spacing: 0.01px;
+    color: #767e9e;
+    margin-top: 8px;
+    width: 300px;
+    text-align: justify;
+    letter-spacing: -0.012em;
+}
+
+.about-us-socials {
+    padding-left: 4px;
+}
+
 
 /*шрифты*/
 
