@@ -5,10 +5,11 @@
 }
 
 body {
-    margin: 0;
-    padding: 0;
-    font-family: "Lato Regular", "Arial", sans-serif;
-    background-color: #ffffff;
+    background-color: #f2f2f2;
+    min-width: 1020px;
+    margin: 0 auto;
+    font-family: "Lato", Arial, sans-serif;
+    font-weight: 400;
 }
 
 
@@ -16,6 +17,7 @@ body {
 
 .marketing-container {
     background-color: #2d303a;
+    border-bottom: 6px solid #323746;
 }
 
 .wrapper {
@@ -24,23 +26,18 @@ body {
 }
 
 .wrapper-portfolio {
-    padding-left: 42px;
-    padding-right: 27px;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding: 60px 20px 20px 40px;
 }
 
 .header-portfolio {
-    font-size: 30px;
+    font-size: 26px;
     font-weight: 900;
-    letter-spacing: 0.01em;
-    color: #666d89;
+    color: #666d89
 }
 
 .desc-portfolio {
-    margin-top: 21px;
-    font-size: 18px;
-    letter-spacing: -0.012em;
+    margin-top: 23px;
+    font-size: 17px;
     font-weight: 300;
     color: #767e9e;
     text-align: justify;
@@ -59,16 +56,23 @@ body {
 }
 
 .btn {
+    height: 17px;
+    display: inline-block;
+    text-align: center;
+    padding: 0px 4px 0px 4px;
     background-color: #0f0f0f;
     border: 1.5px solid #666d89;
     border-radius: 5px;
     font-size: 12px;
     font-weight: 300;
     color: #767e9e;
-    height: 22px;
-    display: inline-block;
-    text-align: center;
-    padding: 0 6px;
+    vertical-align: middle;
+}
+
+.btn:hover {
+    cursor: pointer;
+    color: #dedede;
+    border-color: #c5c5c5;
 }
 
 .portfolio-container {
@@ -77,7 +81,7 @@ body {
     display: grid;
     max-height: 601px;
     overflow: hidden;
-    margin-top: 19px;
+    margin-top: 22px;
     margin-bottom: 47px;
 }
 
@@ -91,7 +95,7 @@ body {
 }
 
 .wrapper-about {
-    padding: 45px 2px 2px 35px;
+    padding: 52px 1px 1px 40px;
 }
 
 .about-head {
@@ -114,7 +118,7 @@ body {
     display: grid;
     max-height: 600px;
     overflow: hidden;
-    margin: 43px 0 63px 0px;
+    margin: 43px 0 63px 40px;
     grid-template-columns: 319px 321px 320px;
     grid-template-rows: 300px 111px 35px;
 }
@@ -124,14 +128,14 @@ body {
 }
 
 .about-items-text-name {
+    font-size: 15px;
+    line-height: 20px;
+    font-weight: 900;
     color: #666d89;
     text-align: justify;
     width: 130px;
     display: inline-block;
     letter-spacing: -0.049px;
-    font-size: 18px;
-    line-height: 20px;
-    font-weight: 900;
 }
 
 .about-items-text-description {
@@ -146,7 +150,11 @@ body {
 }
 
 .about-us-socials {
-    padding-left: 4px;
+    padding-left: 1px;
+}
+
+.about-us-socials-icon {
+    margin-right: 4px;
 }
 
 
