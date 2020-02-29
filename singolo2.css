@@ -1,3 +1,25 @@
+/*шрифты*/
+
+@font-face {
+    font-family: "Lato Light";
+    src: url("assets/fonts/Lato-Light.ttf");
+}
+
+@font-face {
+    font-family: "Lato Regular";
+    src: url("assets/fonts/Lato-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Lato Bold";
+    src: url("assets/fonts/Lato-Bold.ttf");
+}
+
+@font-face {
+    font-family: "Lato Black";
+    src: url("assets/fonts/Lato-Black.ttf");
+}
+
 * {
     padding: 0;
     margin: 0;
@@ -26,12 +48,12 @@ body {
 }
 
 .wrapper-portfolio {
-    padding: 60px 20px 20px 40px;
+    padding: 63px 20px 20px 40px;
 }
 
 .header-portfolio {
-    font-size: 26px;
-    font-weight: 900;
+    font-size: 30px;
+    font-weight: 600;
     color: #666d89
 }
 
@@ -45,7 +67,7 @@ body {
 }
 
 .portfolio-buttons {
-    margin-top: 13px;
+    margin-top: 14px;
     width: 290px;
 }
 
@@ -59,9 +81,9 @@ body {
     height: 17px;
     display: inline-block;
     text-align: center;
-    padding: 0px 4px 0px 4px;
-    background-color: #0f0f0f;
-    border: 1.5px solid #666d89;
+    padding: 4px 8px 1px 6px;
+    background-color: #2d303a;
+    border: 1px solid #666d89;
     border-radius: 5px;
     font-size: 12px;
     font-weight: 300;
@@ -81,7 +103,7 @@ body {
     display: grid;
     max-height: 601px;
     overflow: hidden;
-    margin-top: 22px;
+    margin-top: 19px;
     margin-bottom: 47px;
 }
 
@@ -99,16 +121,16 @@ body {
 }
 
 .about-head {
-    font-size: 30px;
+    font-size: 26px;
     font-weight: 900;
     color: #666d89;
 }
 
 .about-desc {
-    letter-spacing: -0.34px;
+    letter-spacing: -0.5px;
     color: #767e9e;
     width: 940px;
-    margin-top: 17px;
+    margin-top: 19px;
     text-align: justify;
     font-size: 18px;
     line-height: 30px;
@@ -129,13 +151,13 @@ body {
 
 .about-items-text-name {
     font-size: 15px;
-    line-height: 20px;
+    line-height: 16px;
     font-weight: 900;
     color: #666d89;
     text-align: justify;
     width: 130px;
     display: inline-block;
-    letter-spacing: -0.049px;
+    letter-spacing: -0.09px;
 }
 
 .about-items-text-description {
@@ -155,27 +177,4 @@ body {
 
 .about-us-socials-icon {
     margin-right: 4px;
-}
-
-
-/*шрифты*/
-
-@font-face {
-    font-family: "Lato Light";
-    src: url("assets/fonts/Lato-Light.ttf");
-}
-
-@font-face {
-    font-family: "Lato Regular";
-    src: url("assets/fonts/Lato-Regular.ttf");
-}
-
-@font-face {
-    font-family: "Lato Bold";
-    src: url("assets/fonts/Lato-Bold.ttf");
-}
-
-@font-face {
-    font-family: "Lato Black";
-    src: url("assets/fonts/Lato-Black.ttf");
 }
