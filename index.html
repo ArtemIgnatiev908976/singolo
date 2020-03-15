@@ -9,6 +9,9 @@
 </head>
 
 <body>
+    <div id="services"></div>
+    <div id="portfolio"></div>
+    <div id="about"></div>
     <header class="header">
         <div class="wrapper">
             <div class="header-box">
@@ -18,11 +21,13 @@
                 <div class="header-navigation">
                     <nav>
                         <ul class="header-menu">
-                            <li class="header-menu__item"><a class="header-menu__link" href="#">HOME</a></li>
-                            <li class="header-menu__item"><a class="header-menu__link" href="#">SERVICES</a></li>
-                            <li class="header-menu__item"><a class="header-menu__link" href="#">PORTFOLIO</a></li>
-                            <li class="header-menu__item"><a class="header-menu__link" href="#">ABOUT</a></li>
-                            <li class="header-menu__item"><a class="header-menu__link" href="#">CONTACT</a></li>
+                            <li class="header-menu__item"><a class="header-menu__link header-menu_active" href="#">HOME</a></li>
+                            <li class="header-menu__item"><a class="header-menu__link" href="#services">SERVICES</a>
+                            </li>
+                            <li class="header-menu__item"><a class="header-menu__link" href="#portfolio">PORTFOLIO</a>
+                            </li>
+                            <li class="header-menu__item"><a class="header-menu__link" href="#about">ABOUT</a></li>
+                            <li class="header-menu__item"><a class="header-menu__link" href="#contact">CONTACT</a></li>
                         </ul>
                     </nav>
                 </div>
@@ -31,32 +36,6 @@
     </header>
 
     <main>
-
-
-
-
-        <section class="slider">
-            <div class="wrapper">
-                <div class="slider-items">
-                    <div class="slider-items__left-arrow arrow_hover">
-                        <img src="assets/arrow-2.png" alt="left arrow image">
-                    </div>
-                    <div>
-                        <img src="assets/iphone1.png" alt="phone image">
-                    </div>
-                    <div class="slider-items__right-phone">
-                        <img src="assets/iphone2.png" alt="phone image">
-                    </div>
-                    <div class="slider-items__right-arrow arrow_hover" alt="right arrow image">
-                        <img src="assets/arrow-2.png">
-                    </div>
-                </div>
-            </div>
-        </section>
-
-
-
-
         <section class="slider">
             <div class="wrapper">
                 <div class="slider-items">
@@ -64,12 +43,12 @@
                         <div class="slider-image">
                             <div class="first-image">
                                 <div>
-                                    <img src="assets/arrow-2.png" alt="phone image">
+                                    <img src="assets/icons/phone-left.png" alt="phone image">
                                     <div class="left-phone-black-screen"></div>
                                     <div class="left-phone-switcher"></div>
                                 </div>
                                 <div class="slider-items__right-phone">
-                                    <img src="assets/iphone1.png" alt="phone image">
+                                    <img src="assets/icons/phone-right.png" alt="phone image">
                                     <div class="right-phone-black-screen"></div>
                                     <div class="right-phone-switcher"></div>
                                 </div>
@@ -79,9 +58,7 @@
                         <div class="slider-image">
                             <img src="assets/icons/Slide-2.png" alt="slide">
                         </div>
-                        <div class="slider-image">
-                            <img src="assets/icons/Slide-3.png" alt="slide">
-                        </div>
+
                         <div class="slider-items__right-arrow arrow_hover">
                             <img src="assets/icons/icon-navigation.png" alt="right arrow image">
                         </div>
@@ -91,24 +68,6 @@
                     </div>
                 </div>
         </section>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
         <section class="services">
             <div class="wrapper">
@@ -122,7 +81,7 @@
                 <div class="services-items">
 
                     <div class="services-item">
-                        <img class="services-item__icon" src="assets/design.svg" alt="custom design icon">
+                        <img class="services-item__icon" src="assets/icons/icon-custom.svg" alt="custom design icon">
                         <div>
                             <h2 class="services-item__title">Custom Design</h2>
                             <p class="services-item__description">Curabitur vestibulum eget mauris quis laoreet. Phasellus in quam laoreet, viverra lacus ut, ultrices velit.</p>
@@ -130,7 +89,7 @@
                     </div>
 
                     <div class="services-item">
-                        <img class="services-item__icon" src="assets/ideas.svg" alt="inovative ideas icon">
+                        <img class="services-item__icon" src="assets/icons/icon-inovative.svg" alt="inovative ideas icon">
                         <div>
                             <h2 class="services-item__title">Inovative Ideas</h2>
                             <p class="services-item__description">Quisque luctus, quam eget molestie commodo, lacus purus cursus purus, nec rutrum tellus dolor id lorem.</p>
@@ -138,7 +97,7 @@
                     </div>
 
                     <div class="services-item">
-                        <img class="services-item__icon" src="assets/love.svg" alt="love is the answer icon">
+                        <img class="services-item__icon" src="assets/icons/icon-love.svg" alt="love is the answer icon">
                         <div>
                             <h2 class="services-item__title">Love Is The Answer</h2>
                             <p class="services-item__description">Nulla sed nunc et tortor luctus faucibus. Morbi at aliquet turpis, et consequat felis. Quisque condimentum.</p>
@@ -146,23 +105,23 @@
                     </div>
 
                     <div class="services-item">
-                        <img class="services-item__icon" src="assets/phone.svg" alt="responsive layout icon">
+                        <img class="services-item__icon" src="assets/icons/icon-responsive.svg" alt="responsive layout icon">
                         <div>
                             <h2 class="services-item__title">Responsive Layout</h2>
-                            <p class="services-item__description">Sed porttitor placerat rhoncus. In at nunc tellus. Maecenas blandit nunc ligula. Prae&shy;sent elit leo.</p>
+                            <p class="services-item__description">Sed porttitor placerat rhoncus. In at nunc tellus. Maecenas blandit nunc ligula. Praesent elit leo.</p>
                         </div>
                     </div>
 
                     <div class="services-item">
-                        <img class="services-item__icon" src="assets/support.svg" alt="support icon">
+                        <img class="services-item__icon" src="assets/icons/icon-24-7.svg" alt="support icon">
                         <div>
                             <h2 class="services-item__title">24 / 7 Support</h2>
-                            <p class="services-item__description">Vivamus vel quam lacinia, tincidunt dui non, vehicula nisi. Nulla a sem erat. Pellen&shy;tesque egestas venenatis lorem.</p>
+                            <p class="services-item__description">Vivamus vel quam lacinia, tincidunt dui non, vehicula nisi. Nulla a sem erat. Pellentesque egestas venenatis lorem.</p>
                         </div>
                     </div>
 
                     <div class="services-item">
-                        <img class="services-item__icon" src="assets/star.svg" alt="feel like a star icon">
+                        <img class="services-item__icon" src="assets/icons/icon-feel.svg" alt="feel like a star icon">
                         <div>
                             <h2 class="services-item__title">Feel Like A Star</h2>
                             <p class="services-item__description">Quisque hendrerit purus dapibus, ornare nibh vitae, viverra nibh. Fusce vitae aliquam tellus.</p>
@@ -173,30 +132,29 @@
             </div>
         </section>
 
-
         <section class="portfolio">
             <div class="wrapper">
                 <h1 class="portfolio-title">Portfolio</h1>
                 <p class="portfolio-description">Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.</p>
                 <div class=buttons>
-                    <button class="btn">All</button>
+                    <button class="btn btn__active">All</button>
                     <button class="btn">Web design</button>
                     <button class="btn">Graphic design</button>
                     <button class="btn">Artwork</button>
                 </div>
                 <div class="portfolio-items">
-                    <img class="portfolio-image" src="assets/1.png" alt="portfolio image">
-                    <img class="portfolio-image" src="assets/2.png" alt="portfolio image">
-                    <img class="portfolio-image" src="assets/3.png" alt="portfolio image">
-                    <img class="portfolio-image" src="assets/4.png" alt="portfolio image">
-                    <img class="portfolio-image" src="assets/5.png" alt="portfolio image">
-                    <img class="portfolio-image" src="assets/6.png" alt="portfolio image">
-                    <img class="portfolio-image" src="assets/7.png" alt="portfolio image">
-                    <img class="portfolio-image" src="assets/8.png" alt="portfolio image">
-                    <img class="portfolio-image" src="assets/9.png" alt="portfolio image">
-                    <img class="portfolio-image" src="assets/10.png" alt="portfolio image">
-                    <img class="portfolio-image" src="assets/11.png" alt="portfolio image">
-                    <img class="portfolio-image" src="assets/12.png" alt="portfolio image">
+                    <img class="portfolio-image" src="assets/icons/portfolio01.png" alt="portfolio image">
+                    <img class="portfolio-image" src="assets/icons/portfolio02.png" alt="portfolio image">
+                    <img class="portfolio-image" src="assets/icons/portfolio03.png" alt="portfolio image">
+                    <img class="portfolio-image" src="assets/icons/portfolio04.png" alt="portfolio image">
+                    <img class="portfolio-image" src="assets/icons/portfolio05.png" alt="portfolio image">
+                    <img class="portfolio-image" src="assets/icons/portfolio06.png" alt="portfolio image">
+                    <img class="portfolio-image" src="assets/icons/portfolio07.png" alt="portfolio image">
+                    <img class="portfolio-image" src="assets/icons/portfolio08.png" alt="portfolio image">
+                    <img class="portfolio-image" src="assets/icons/portfolio09.png" alt="portfolio image">
+                    <img class="portfolio-image" src="assets/icons/portfolio10.png" alt="portfolio image">
+                    <img class="portfolio-image" src="assets/icons/portfolio11.png" alt="portfolio image">
+                    <img class="portfolio-image" src="assets/icons/portfolio12.png" alt="portfolio image">
                 </div>
             </div>
         </section>
@@ -208,38 +166,38 @@
 
                 <div class="persons">
                     <div class="person">
-                        <img class="person-image" src="assets/item1.png">
+                        <img class="person-image" src="assets/icons/about_us1.png">
                         <h2 class="person-name">Adam Jensen</h2>
                         <p class="person-description">Quisque luctus, quam eget molestie commodo, lacus purus cursus purus, nec rutrum tellus dolor id lorem.</p>
                         <div class="contacts">
-                            <a href="#"><img class="contacts__img" src="assets/facebook.svg"></a>
-                            <a href="#"><img class="contacts__img" src="assets/google.svg"></a>
-                            <a href="#"><img class="contacts__img" src="assets/twitter.svg"></a>
-                            <a href="#"><img class="contacts__img" src="assets/linkedin.svg"></a>
+                            <a href="#"><img class="contacts__img" src="assets/icons/facebook.svg"></a>
+                            <a href="#"><img class="contacts__img" src="assets/icons/google.svg"></a>
+                            <a href="#"><img class="contacts__img" src="assets/icons/twitter.svg"></a>
+                            <a href="#"><img class="contacts__img" src="assets/icons/linkedin.svg"></a>
                         </div>
                     </div>
 
                     <div class="person">
-                        <img class="person-image" src="assets/item2.png">
+                        <img class="person-image" src="assets/icons/about_us2.png">
                         <h2 class="person-name">Desmond Miles</h2>
                         <p class="person-description">Curabitur vestibulum eget mauris quis laoreet. Phasellus in quam laoreet, viverra lacus ut, ultrices velit.</p>
                         <div class="contacts">
-                            <a href="#"><img class="contacts__img" src="assets/facebook.svg"></a>
-                            <a href="#"><img class="contacts__img" src="assets/google.svg"></a>
-                            <a href="#"><img class="contacts__img" src="assets/twitter.svg"></a>
-                            <a href="#"><img class="contacts__img" src="assets/linkedin.svg"></a>
+                            <a href="#"><img class="contacts__img" src="assets/icons/facebook.svg"></a>
+                            <a href="#"><img class="contacts__img" src="assets/icons/google.svg"></a>
+                            <a href="#"><img class="contacts__img" src="assets/icons/twitter.svg"></a>
+                            <a href="#"><img class="contacts__img" src="assets/icons/linkedin.svg"></a>
                         </div>
                     </div>
 
                     <div class="person">
-                        <img class="person-image" src="assets/item3.png">
+                        <img class="person-image" src="assets/icons/about_us3.png">
                         <h2 class="person-name">Scolara Visari</h2>
                         <p class="person-description">Nulla sed nunc et tortor luctus faucibus. Morbi at aliquet turpis, et consequat felis. Quisque condimentum.</p>
                         <div class="contacts">
-                            <a href="#"><img class="contacts__img" src="assets/facebook.svg"></a>
-                            <a href="#"><img class="contacts__img" src="assets/google.svg"></a>
-                            <a href="#"><img class="contacts__img" src="assets/twitter.svg"></a>
-                            <a href="#"><img class="contacts__img" src="assets/linkedin.svg"></a>
+                            <a href="#"><img class="contacts__img" src="assets/icons/facebook.svg"></a>
+                            <a href="#"><img class="contacts__img" src="assets/icons/google.svg"></a>
+                            <a href="#"><img class="contacts__img" src="assets/icons/twitter.svg"></a>
+                            <a href="#"><img class="contacts__img" src="assets/icons/linkedin.svg"></a>
                         </div>
                     </div>
 
@@ -259,19 +217,28 @@
                         <input class="input" type="email" name="email" placeholder="Email (Required)" required="">
                         <input class="input" type="text" name="subj" placeholder="Subject">
                         <textarea class="input input-txt" name="msg" placeholder="Describe your project in detail..."></textarea>
-                        <button class="btn-submit" type="submit" name="send_other">Submit</button>
+                        <button class="btn-submit" type="submit">Submit</button>
                     </form>
 
-                    <div class="contact-information">
+                    <div class="popup" style="display: none">
+                        <div class="popup__inside">
+                            <span>Письмо отправлено</span> <br>
+                            <span class="popup__theme"> Тема: </span> <br>
+                            <span class="popup__description">Описание: </span> <br>
+                            <button class="popup_btn">OK</button>
+                        </div>
+                    </div>
+
+                    <div class="contact-information" id="contact">
                         <h3 class="contact-information__header">Contact Information</h3>
                         <p class="contact-information__description">
                             Quisque hendrerit purus dapibus, ornare nibh vitae, viver&shy;ra nibh. Fusce vitae aliquam tellus. Proin sit amet volutpat libero. Nulla sed nunc et tortor luctus faucibus. Morbi at aliquet turpis, et consequat felis.
                         </p>
                         <div class="contact-information-box">
-                            <span class="addr"><img class="contact-information__img" src="assets/location.png">
-                        Elm St. 14/05 Lost City</span> <br>
-                            <a class="phone" href="tel:035283318635"> <img class="contact-information__img" src="assets/phone.png">03528 331 86 35</a> <br>
-                            <a class="email" href="mailto:info@singolo.com"> <img class="contact-information__img" src="assets/mail.png">info@singolo.com</a> <br>
+                            <span class="addr"><img class="contact-information__img" src="assets/icons/location.png">
+                                Elm St. 14/05 Lost City</span> <br>
+                            <a class="phone" href="tel:035283318635"> <img class="contact-information__img" src="assets/icons/phone.png">03528 331 86 35</a> <br>
+                            <a class="email" href="mailto:info@singolo.com"> <img class="contact-information__img" src="assets/icons/mail.png">info@singolo.com</a> <br>
                         </div>
                     </div>
                 </div>
@@ -284,17 +251,15 @@
             <div class="footer">
                 <span>© Copyright 2013</span>
                 <div class="footer__contacts">
-                    <a href="#"> <img class="contacts__img" src="assets/facebook.svg"> </a>
-                    <a href="#"> <img class="contacts__img" src="assets/google.svg"> </a>
-                    <a href="#"> <img class="contacts__img" src="assets/twitter.svg"> </a>
-                    <a href="#"> <img class="contacts__img" src="assets/linkedin.svg"> </a>
+                    <a href="#"> <img class="contacts__img" src="assets/icons/facebook.svg"> </a>
+                    <a href="#"> <img class="contacts__img" src="assets/icons/google.svg"> </a>
+                    <a href="#"> <img class="contacts__img" src="assets/icons/twitter.svg"> </a>
+                    <a href="#"> <img class="contacts__img" src="assets/icons/linkedin.svg"> </a>
                 </div>
             </div>
         </div>
     </footer>
     <script src="script.js"></script>
-
-
 </body>
 
 </html>
