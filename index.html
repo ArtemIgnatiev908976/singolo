@@ -9,25 +9,25 @@
 </head>
 
 <body>
-    <div id="services"></div>
-    <div id="portfolio"></div>
-    <div id="about"></div>
     <header class="header">
         <div class="wrapper">
             <div class="header-box">
+                <div class="hamburger">
+                    <img src="assets/icons/burger-icon.png" alt="burger">
+                </div>
                 <div class="logo">
                     <h1>SINGOLO<span class="logo__star">*</span></h1>
                 </div>
                 <div class="header-navigation">
                     <nav>
                         <ul class="header-menu">
-                            <li class="header-menu__item"><a class="header-menu__link header-menu_active" href="#">HOME</a></li>
+                            <li class="header-menu__item"><a class="header-menu__link header-menu_active" href="#slider">HOME</a></li>
                             <li class="header-menu__item"><a class="header-menu__link" href="#services">SERVICES</a>
                             </li>
                             <li class="header-menu__item"><a class="header-menu__link" href="#portfolio">PORTFOLIO</a>
                             </li>
                             <li class="header-menu__item"><a class="header-menu__link" href="#about">ABOUT</a></li>
-                            <li class="header-menu__item"><a class="header-menu__link" href="#contact">CONTACT</a></li>
+                            <li class="header-menu__item"><a class="header-menu__link" href="#quote">CONTACT</a></li>
                         </ul>
                     </nav>
                 </div>
@@ -37,39 +37,37 @@
 
     <main>
         <section class="slider">
+            <div id="slider" class="anchor"></div>
             <div class="wrapper">
                 <div class="slider-items">
-                    <div>
-                        <div class="slider-image">
-                            <div class="first-image">
-                                <div>
-                                    <img src="assets/icons/phone-left.png" alt="phone image">
-                                    <div class="left-phone-black-screen"></div>
-                                    <div class="left-phone-switcher"></div>
-                                </div>
-                                <div class="slider-items__right-phone">
-                                    <img src="assets/icons/phone-right.png" alt="phone image">
-                                    <div class="right-phone-black-screen"></div>
-                                    <div class="right-phone-switcher"></div>
-                                </div>
-                            </div>
 
+                    <div class="slider-image first-image">
+                        <div class="slider-items__left-phone">
+                            <img src="assets/icons/phone-left.png" alt="phone image">
+                            <div class="left-phone-black-screen hidden"></div>
+                            <div class="left-phone-switcher"></div>
                         </div>
-                        <div class="slider-image">
-                            <img src="assets/icons/Slide-2.png" alt="slide">
+                        <div class="slider-items__right-phone">
+                            <img src="assets/icons/phone-right.png" alt="phone image">
+                            <div class="right-phone-black-screen hidden"></div>
+                            <div class="right-phone-switcher"></div>
                         </div>
+                    </div>
 
-                        <div class="slider-items__right-arrow arrow_hover">
-                            <img src="assets/icons/icon-navigation.png" alt="right arrow image">
-                        </div>
-                        <div class="slider-items__left-arrow arrow_hover">
-                            <img src="assets/icons/icon-navigation.png" alt="left arrow image">
-                        </div>
+                    <div class="slider-image other-image hidden">
+                        <img src="assets/icons/Slide-2.png" alt="slide">
+                    </div>
+                    <div class="slider-items__right-arrow arrow_hover">
+                        <img src="assets/icons/icon-arrow.svg" alt="right arrow image">
+                    </div>
+                    <div class="slider-items__left-arrow arrow_hover">
+                        <img src="assets/icons/icon-arrow.svg" alt="left arrow image">
                     </div>
                 </div>
         </section>
 
         <section class="services">
+            <div id="services" class="anchor"></div>
             <div class="wrapper">
 
                 <h1 class="services__title"> Our Services</h1>
@@ -133,6 +131,7 @@
         </section>
 
         <section class="portfolio">
+            <div id="portfolio" class="anchor"></div>
             <div class="wrapper">
                 <h1 class="portfolio-title">Portfolio</h1>
                 <p class="portfolio-description">Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.</p>
@@ -160,6 +159,7 @@
         </section>
 
         <section class="about">
+            <div id="about" class="anchor"></div>
             <div class="wrapper">
                 <h1 class="portfolio-title">About Us</h1>
                 <p class="about-description">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum. Duis mollis, non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
@@ -206,6 +206,7 @@
         </section>
 
         <section class="quote">
+            <div id="quote" class="anchor"></div>
             <div class="wrapper">
                 <h1 class="title">Get a Quote</h1>
                 <p class="description">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum. Duis mollis, non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.
@@ -217,19 +218,21 @@
                         <input class="input" type="email" name="email" placeholder="Email (Required)" required="">
                         <input class="input" type="text" name="subj" placeholder="Subject">
                         <textarea class="input input-txt" name="msg" placeholder="Describe your project in detail..."></textarea>
-                        <button class="btn-submit" type="submit">Submit</button>
+                        <button class="btn-submit" type="submit">SEND</button>
                     </form>
 
-                    <div class="popup" style="display: none">
+                    <div class="popup hidden">
                         <div class="popup__inside">
                             <span>Письмо отправлено</span> <br>
-                            <span class="popup__theme"> Тема: </span> <br>
-                            <span class="popup__description">Описание: </span> <br>
+                            <span class="popup__theme"> </span> <br>
+                            <div class="popup__text">
+                                <span class="popup__description"> </span>
+                            </div>
                             <button class="popup_btn">OK</button>
                         </div>
                     </div>
 
-                    <div class="contact-information" id="contact">
+                    <div class="contact-information">
                         <h3 class="contact-information__header">Contact Information</h3>
                         <p class="contact-information__description">
                             Quisque hendrerit purus dapibus, ornare nibh vitae, viver&shy;ra nibh. Fusce vitae aliquam tellus. Proin sit amet volutpat libero. Nulla sed nunc et tortor luctus faucibus. Morbi at aliquet turpis, et consequat felis.
